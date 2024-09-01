@@ -1,0 +1,2304 @@
+2024-08-26 17:23:40,544 - INFO - Launching scraping process for term: zebra scanner
+2024-08-26 17:23:40,544 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra scanner'...
+2024-08-26 17:27:55,948 - INFO - Scrape completed successfully in 255.40 seconds for 108562712499750.
+2024-08-26 17:27:55,949 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra scanner'...
+2024-08-26 17:28:48,525 - INFO - Scrape completed successfully in 52.58 seconds for 183509305085293.
+2024-08-26 17:28:48,525 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra scanner'...
+2024-08-26 17:30:11,741 - INFO - Scrape completed successfully in 83.22 seconds for 112682018747951.
+2024-08-26 17:30:11,743 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra scanner'...
+2024-08-26 17:31:31,036 - INFO - Scrape completed successfully in 79.29 seconds for 111922062167097.
+2024-08-26 17:31:31,036 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra scanner'...
+2024-08-26 17:32:33,280 - INFO - Scrape completed successfully in 62.24 seconds for 112583085425676.
+2024-08-26 17:32:33,280 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra scanner'...
+2024-08-26 17:33:18,065 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:33:18,066 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:33:18,066 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra scanner'...
+2024-08-26 17:34:00,757 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:34:00,757 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:34:00,757 - INFO - Attempt 3: Starting scrape for 362073744288039 with search term 'zebra scanner'...
+2024-08-26 17:34:44,178 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:34:44,178 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:34:44,178 - WARNING - Max retries reached for 362073744288039. Moving on...
+2024-08-26 17:34:44,178 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra scanner'...
+2024-08-26 17:35:29,158 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:35:29,158 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:35:29,158 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra scanner'...
+2024-08-26 17:36:11,436 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:36:11,436 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:36:11,436 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra scanner'...
+2024-08-26 17:36:54,089 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:36:54,089 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:36:54,090 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 17:36:54,090 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra scanner'...
+2024-08-26 17:37:57,466 - INFO - Scrape completed successfully in 63.38 seconds for 115392538472860.
+2024-08-26 17:37:57,467 - INFO - Attempt 1: Starting scrape for 115477851802820 with search term 'zebra scanner'...
+2024-08-26 17:38:42,993 - INFO - Scrape completed successfully in 45.53 seconds for 115477851802820.
+2024-08-26 17:38:42,994 - INFO - Launching scraping process for term: zebra computer
+2024-08-26 17:38:42,994 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra computer'...
+2024-08-26 17:39:29,359 - INFO - Scrape completed successfully in 46.37 seconds for 108562712499750.
+2024-08-26 17:39:29,359 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra computer'...
+2024-08-26 17:39:50,447 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:39:50,447 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 61, in scroll_and_collect_items
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[role="main"]')))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x001BEE42]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:39:50,448 - INFO - Attempt 2: Starting scrape for 183509305085293 with search term 'zebra computer'...
+2024-08-26 17:40:40,182 - INFO - Scrape completed successfully in 49.73 seconds for 183509305085293.
+2024-08-26 17:40:40,182 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra computer'...
+2024-08-26 17:41:24,393 - INFO - Scrape completed successfully in 44.21 seconds for 112682018747951.
+2024-08-26 17:41:24,393 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra computer'...
+2024-08-26 17:42:11,926 - INFO - Scrape completed successfully in 47.53 seconds for 111922062167097.
+2024-08-26 17:42:11,926 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra computer'...
+2024-08-26 17:43:12,291 - INFO - Scrape completed successfully in 60.37 seconds for 112583085425676.
+2024-08-26 17:43:12,291 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra computer'...
+2024-08-26 17:44:21,591 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:44:21,591 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:44:21,591 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra computer'...
+2024-08-26 17:45:05,029 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:45:05,029 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:45:05,029 - INFO - Attempt 3: Starting scrape for 362073744288039 with search term 'zebra computer'...
+2024-08-26 17:45:48,532 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:45:48,532 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:45:48,532 - WARNING - Max retries reached for 362073744288039. Moving on...
+2024-08-26 17:45:48,533 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra computer'...
+2024-08-26 17:46:30,692 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:46:30,692 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:46:30,692 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra computer'...
+2024-08-26 17:47:14,205 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:47:14,205 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:47:14,205 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra computer'...
+2024-08-26 17:47:57,215 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 17:47:57,215 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 17:47:57,215 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 17:47:57,215 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra computer'...
+2024-08-26 18:49:38,205 - INFO - Launching scraping process for term: zebra scanner
+2024-08-26 18:49:38,206 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra scanner'...
+2024-08-26 18:50:31,510 - INFO - Scrape completed successfully in 53.30 seconds for 108562712499750.
+2024-08-26 18:50:31,510 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra scanner'...
+2024-08-26 18:51:27,417 - INFO - Scrape completed successfully in 55.91 seconds for 183509305085293.
+2024-08-26 18:51:27,417 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra scanner'...
+2024-08-26 18:53:33,152 - INFO - Scrape completed successfully in 125.73 seconds for 112682018747951.
+2024-08-26 18:53:33,152 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra scanner'...
+2024-08-26 18:54:55,499 - INFO - Scrape completed successfully in 82.35 seconds for 111922062167097.
+2024-08-26 18:54:55,499 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra scanner'...
+2024-08-26 18:55:40,563 - INFO - Scrape completed successfully in 45.06 seconds for 112583085425676.
+2024-08-26 18:55:40,563 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra scanner'...
+2024-08-26 18:56:22,053 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 18:56:22,053 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 18:56:22,053 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra scanner'...
+2024-08-26 18:57:24,735 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 18:57:24,735 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 18:57:24,735 - INFO - Attempt 3: Starting scrape for 362073744288039 with search term 'zebra scanner'...
+2024-08-26 18:58:06,014 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 18:58:06,014 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 18:58:06,014 - WARNING - Max retries reached for 362073744288039. Moving on...
+2024-08-26 18:58:06,014 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra scanner'...
+2024-08-26 18:58:48,402 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 18:58:48,403 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 18:58:48,403 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra scanner'...
+2024-08-26 18:59:58,710 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 18:59:58,710 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 18:59:58,710 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra scanner'...
+2024-08-26 19:00:41,098 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:00:41,098 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:00:41,098 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 19:00:41,098 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra scanner'...
+2024-08-26 19:01:25,505 - INFO - Scrape completed successfully in 44.41 seconds for 115392538472860.
+2024-08-26 19:01:25,506 - INFO - Attempt 1: Starting scrape for 115477851802820 with search term 'zebra scanner'...
+2024-08-26 19:02:10,128 - INFO - Scrape completed successfully in 44.62 seconds for 115477851802820.
+2024-08-26 19:02:10,128 - INFO - Launching scraping process for term: zebra phone
+2024-08-26 19:02:10,128 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra phone'...
+2024-08-26 19:02:58,998 - INFO - Scrape completed successfully in 48.87 seconds for 108562712499750.
+2024-08-26 19:02:58,999 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra phone'...
+2024-08-26 19:03:54,435 - INFO - Scrape completed successfully in 55.44 seconds for 183509305085293.
+2024-08-26 19:03:54,435 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra phone'...
+2024-08-26 19:04:46,107 - INFO - Scrape completed successfully in 51.67 seconds for 112682018747951.
+2024-08-26 19:04:46,107 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra phone'...
+2024-08-26 19:05:35,625 - INFO - Scrape completed successfully in 49.52 seconds for 111922062167097.
+2024-08-26 19:05:35,626 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra phone'...
+2024-08-26 19:06:23,215 - INFO - Scrape completed successfully in 47.59 seconds for 112583085425676.
+2024-08-26 19:06:23,216 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra phone'...
+2024-08-26 19:06:44,251 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:06:44,251 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 61, in scroll_and_collect_items
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[role="main"]')))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x001BEE42]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:06:44,251 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra phone'...
+2024-08-26 19:07:27,313 - INFO - Scrape completed successfully in 43.06 seconds for 362073744288039.
+2024-08-26 19:07:27,314 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra phone'...
+2024-08-26 19:08:11,768 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:08:11,768 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:08:11,769 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra phone'...
+2024-08-26 19:08:56,795 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:08:56,795 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:08:56,795 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra phone'...
+2024-08-26 19:09:39,112 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:09:39,112 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:09:39,112 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 19:09:39,112 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra phone'...
+2024-08-26 19:10:24,508 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:10:24,508 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:10:24,508 - INFO - Attempt 2: Starting scrape for 115392538472860 with search term 'zebra phone'...
+2024-08-26 19:11:06,867 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:11:06,867 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:11:06,867 - INFO - Attempt 3: Starting scrape for 115392538472860 with search term 'zebra phone'...
+2024-08-26 19:11:50,073 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:11:50,073 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:11:50,073 - WARNING - Max retries reached for 115392538472860. Moving on...
+2024-08-26 19:11:50,073 - INFO - Attempt 1: Starting scrape for 115477851802820 with search term 'zebra phone'...
+2024-08-26 19:12:37,441 - INFO - Scrape completed successfully in 47.37 seconds for 115477851802820.
+2024-08-26 19:12:37,441 - INFO - Launching scraping process for term: zebra handheld
+2024-08-26 19:12:37,441 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra handheld'...
+2024-08-26 19:13:21,190 - INFO - Scrape completed successfully in 43.75 seconds for 108562712499750.
+2024-08-26 19:13:21,190 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra handheld'...
+2024-08-26 19:14:24,392 - INFO - Scrape completed successfully in 63.20 seconds for 183509305085293.
+2024-08-26 19:14:24,392 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra handheld'...
+2024-08-26 19:16:05,800 - INFO - Scrape completed successfully in 101.41 seconds for 112682018747951.
+2024-08-26 19:16:05,800 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra handheld'...
+2024-08-26 19:16:49,448 - INFO - Scrape completed successfully in 43.65 seconds for 111922062167097.
+2024-08-26 19:16:49,449 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra handheld'...
+2024-08-26 19:17:31,761 - INFO - Scrape completed successfully in 42.31 seconds for 112583085425676.
+2024-08-26 19:17:31,761 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra handheld'...
+2024-08-26 19:18:17,027 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:18:17,027 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:18:17,027 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra handheld'...
+2024-08-26 19:19:01,446 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:19:01,446 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:19:01,446 - INFO - Attempt 3: Starting scrape for 362073744288039 with search term 'zebra handheld'...
+2024-08-26 19:19:45,357 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:19:45,357 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:19:45,357 - WARNING - Max retries reached for 362073744288039. Moving on...
+2024-08-26 19:19:45,358 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra handheld'...
+2024-08-26 19:20:28,124 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:20:28,124 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:20:28,124 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra handheld'...
+2024-08-26 19:21:11,440 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:21:11,440 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:21:11,440 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra handheld'...
+2024-08-26 19:21:54,640 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:21:54,640 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:21:54,640 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 19:21:54,640 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra handheld'...
+2024-08-26 19:23:04,969 - INFO - Scrape completed successfully in 70.33 seconds for 115392538472860.
+2024-08-26 19:23:04,970 - INFO - Attempt 1: Starting scrape for 115477851802820 with search term 'zebra handheld'...
+2024-08-26 19:23:47,804 - INFO - Scrape completed successfully in 42.83 seconds for 115477851802820.
+2024-08-26 19:23:47,805 - INFO - Launching scraping process for term: zebra computer
+2024-08-26 19:23:47,805 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra computer'...
+2024-08-26 19:24:34,478 - INFO - Scrape completed successfully in 46.67 seconds for 108562712499750.
+2024-08-26 19:24:34,478 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra computer'...
+2024-08-26 19:25:27,795 - INFO - Scrape completed successfully in 53.32 seconds for 183509305085293.
+2024-08-26 19:25:27,795 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra computer'...
+2024-08-26 19:26:12,519 - INFO - Scrape completed successfully in 44.72 seconds for 112682018747951.
+2024-08-26 19:26:12,520 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra computer'...
+2024-08-26 19:27:03,201 - INFO - Scrape completed successfully in 50.68 seconds for 111922062167097.
+2024-08-26 19:27:03,201 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra computer'...
+2024-08-26 19:27:52,566 - INFO - Scrape completed successfully in 49.36 seconds for 112583085425676.
+2024-08-26 19:27:52,567 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra computer'...
+2024-08-26 19:28:37,060 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:28:37,060 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:28:37,060 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra computer'...
+2024-08-26 19:29:25,295 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:29:25,295 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:29:25,295 - INFO - Attempt 3: Starting scrape for 362073744288039 with search term 'zebra computer'...
+2024-08-26 19:30:07,511 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:30:07,511 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:30:07,511 - WARNING - Max retries reached for 362073744288039. Moving on...
+2024-08-26 19:30:07,511 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra computer'...
+2024-08-26 19:30:56,541 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:30:56,541 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:30:56,541 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra computer'...
+2024-08-26 19:31:39,283 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:31:39,283 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:31:39,283 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra computer'...
+2024-08-26 19:32:24,873 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:32:24,873 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:32:24,873 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 19:32:24,874 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra computer'...
+2024-08-26 19:33:09,466 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:33:09,466 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:33:09,466 - INFO - Attempt 2: Starting scrape for 115392538472860 with search term 'zebra computer'...
+2024-08-26 19:33:56,318 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:33:56,318 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:33:56,318 - INFO - Attempt 3: Starting scrape for 115392538472860 with search term 'zebra computer'...
+2024-08-26 19:34:41,014 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:34:41,014 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:34:41,014 - WARNING - Max retries reached for 115392538472860. Moving on...
+2024-08-26 19:34:41,015 - INFO - Attempt 1: Starting scrape for 115477851802820 with search term 'zebra computer'...
+2024-08-26 19:35:25,934 - INFO - Scrape completed successfully in 44.92 seconds for 115477851802820.
+2024-08-26 19:35:25,935 - INFO - Launching scraping process for term: zebra tc
+2024-08-26 19:35:25,935 - INFO - Attempt 1: Starting scrape for 108562712499750 with search term 'zebra tc'...
+2024-08-26 19:36:08,177 - INFO - Scrape completed successfully in 42.24 seconds for 108562712499750.
+2024-08-26 19:36:08,177 - INFO - Attempt 1: Starting scrape for 183509305085293 with search term 'zebra tc'...
+2024-08-26 19:36:51,371 - INFO - Scrape completed successfully in 43.19 seconds for 183509305085293.
+2024-08-26 19:36:51,371 - INFO - Attempt 1: Starting scrape for 112682018747951 with search term 'zebra tc'...
+2024-08-26 19:38:01,860 - INFO - Scrape completed successfully in 70.49 seconds for 112682018747951.
+2024-08-26 19:38:01,860 - INFO - Attempt 1: Starting scrape for 111922062167097 with search term 'zebra tc'...
+2024-08-26 19:38:44,711 - INFO - Scrape completed successfully in 42.85 seconds for 111922062167097.
+2024-08-26 19:38:44,711 - INFO - Attempt 1: Starting scrape for 112583085425676 with search term 'zebra tc'...
+2024-08-26 19:39:28,187 - INFO - Scrape completed successfully in 43.48 seconds for 112583085425676.
+2024-08-26 19:39:28,188 - INFO - Attempt 1: Starting scrape for 362073744288039 with search term 'zebra tc'...
+2024-08-26 19:40:14,670 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:40:14,670 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:40:14,670 - INFO - Attempt 2: Starting scrape for 362073744288039 with search term 'zebra tc'...
+2024-08-26 19:40:56,739 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:40:56,739 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:40:56,739 - INFO - Attempt 3: Starting scrape for 362073744288039 with search term 'zebra tc'...
+2024-08-26 19:41:38,570 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:41:38,570 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:41:38,570 - WARNING - Max retries reached for 362073744288039. Moving on...
+2024-08-26 19:41:38,571 - INFO - Attempt 1: Starting scrape for 114459998571182 with search term 'zebra tc'...
+2024-08-26 19:42:20,378 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:42:20,378 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:42:20,378 - INFO - Attempt 2: Starting scrape for 114459998571182 with search term 'zebra tc'...
+2024-08-26 19:43:03,760 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:43:03,760 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:43:03,760 - INFO - Attempt 3: Starting scrape for 114459998571182 with search term 'zebra tc'...
+2024-08-26 19:43:49,033 - ERROR - Scraping script returned a non-zero exit code: 1
+2024-08-26 19:43:49,034 - ERROR - Output: Traceback (most recent call last):
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 112, in <module>
+    launch_facebook_marketplace(location_input, search_term_input, file_path)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 100, in launch_facebook_marketplace
+    items_collected = scroll_and_collect_items(driver, TARGET_ITEMS)
+  File "D:\System\Tools\python_projects\python_FacebookMarketplace\1_fb_scrape.py", line 73, in scroll_and_collect_items
+    'title': a_tag.find_element(By.TAG_NAME, 'img').get_attribute('alt'),
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 417, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=127.0.6533.122); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00248923+23283]
+	(No symbol) [0x0020E934]
+	(No symbol) [0x00140733]
+	(No symbol) [0x0018326F]
+	(No symbol) [0x001834AB]
+	(No symbol) [0x00179571]
+	(No symbol) [0x001A4464]
+	(No symbol) [0x00179485]
+	(No symbol) [0x001A46B4]
+	(No symbol) [0x001BCB8D]
+	(No symbol) [0x001A41B6]
+	(No symbol) [0x00178017]
+	(No symbol) [0x0017890D]
+	GetHandleVerifier [0x0033A5F3+1013699]
+	GetHandleVerifier [0x00343E4C+1052700]
+	GetHandleVerifier [0x0033D4B4+1025668]
+	GetHandleVerifier [0x0026EA2B+179195]
+	(No symbol) [0x00216833]
+	(No symbol) [0x00213198]
+	(No symbol) [0x00213337]
+	(No symbol) [0x0020B4BE]
+	BaseThreadInitThunk [0x77116839+25]
+	RtlGetFullPathName_UEx [0x77C2914F+1215]
+	RtlGetFullPathName_UEx [0x77C2911D+1165]
+	(No symbol) [0x00000000]
+
+
+2024-08-26 19:43:49,034 - WARNING - Max retries reached for 114459998571182. Moving on...
+2024-08-26 19:43:49,034 - INFO - Attempt 1: Starting scrape for 115392538472860 with search term 'zebra tc'...
+2024-08-26 19:44:05,976 - ERROR - Scraping script returned a non-zero exit code: 3221225786
